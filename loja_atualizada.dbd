@@ -36,6 +36,7 @@ $nomention
 $onlyIf[$getUserVar[dinheiro]>=100;Você não tem moedas suficiente!]
 $setUserVar[picareta;$sum[$getUserVar[picareta];1]]
 $setUserVar[drpick;$sum[$getUserVar[drpick];15]]
+$setUserVar[dinheiro;$sub[$getUserVar[money];100]]
 $title[Compra!]
 $description[$username você comprou uma picareta por 100 moedas!]
 $footer[Use !mine para minerar.]
